@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Dialog } from "@headlessui/react";
+import { Link } from 'react-router-dom';
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "About Us", href: "#" },
+  { name: "About Us", href: "/cta" },
   { name: "Events", href: "#" },
   { name: "Projects", href: "#" },
   { name: "Blog", href: "#" },
@@ -37,17 +38,16 @@ const Navbar = () => {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <ul className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a
+            <li
               key={item.name}
-              href={item.href}
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              {item.name}
-            </a>
+              <Link to={item.href}>{item.name}</Link>
+            </li>
           ))}
-        </div>
+        </ul>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Join Us <span aria-hidden="true">&rarr;</span>
