@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fosskdu_web/static/css/main.fc398cec.css",
+    "main.js": "/fosskdu_web/static/js/main.c77580d3.js",
+    "index.html": "/fosskdu_web/index.html",
+    "main.fc398cec.css.map": "/fosskdu_web/static/css/main.fc398cec.css.map",
+    "main.c77580d3.js.map": "/fosskdu_web/static/js/main.c77580d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc398cec.css",
+    "static/js/main.c77580d3.js"
+  ]
+}
