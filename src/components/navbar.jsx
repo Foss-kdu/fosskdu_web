@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Link } from 'react-router-dom';
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import logo from '../assets/logo.png';
 
 const navigation = [
   { name: "About Us", href: "/cta" },
@@ -23,7 +24,7 @@ const Navbar = () => {
             <span className="sr-only">Foss KDU</span>
             <img
               className="h-8 w-auto"
-              src="../assets/logo.png"
+              src={logo}
               alt="foss logo"
             />
           </a>

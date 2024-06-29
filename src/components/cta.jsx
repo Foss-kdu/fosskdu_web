@@ -1,4 +1,5 @@
 import React from "react";
+import eventallImage from '../assets/eventall.png';
 
  const Cta = () => {
     return (
@@ -41,7 +42,7 @@ import React from "react";
             <div className="relative mt-16 h-80 lg:mt-8">
               <img
                 className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md "
-                src="../assets/eventall.png"
+                src={eventallImage}
                 alt="App screenshot"
                 width={1824}
                 height={1080}
