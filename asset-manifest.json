@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/fosskdu_web/static/css/main.fc398cec.css",
-    "main.js": "/fosskdu_web/static/js/main.c77580d3.js",
+    "main.js": "/fosskdu_web/static/js/main.91fcaa2e.js",
+    "static/media/eventall.png": "/fosskdu_web/static/media/eventall.78b85c1afdcc065eb51e.png",
+    "static/media/logo.png": "/fosskdu_web/static/media/logo.4c1d06f23398c6dedfba.png",
     "index.html": "/fosskdu_web/index.html",
     "main.fc398cec.css.map": "/fosskdu_web/static/css/main.fc398cec.css.map",
-    "main.c77580d3.js.map": "/fosskdu_web/static/js/main.c77580d3.js.map"
+    "main.91fcaa2e.js.map": "/fosskdu_web/static/js/main.91fcaa2e.js.map"
   },
   "entrypoints": [
     "static/css/main.fc398cec.css",
-    "static/js/main.c77580d3.js"
+    "static/js/main.91fcaa2e.js"
   ]
 }
